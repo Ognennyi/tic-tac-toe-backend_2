@@ -1,0 +1,26 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Настройки с секретами
+.env
+.env.*
+!.env.example
+
+# Тесты и отчёты
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+
+# Сборка
+build/
+dist/
+*.egg-info/
